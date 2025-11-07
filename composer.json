@@ -1,14 +1,28 @@
 {
-    "name": "oceanpayment",
-    "description": "Oceanpayment Payment SDK for PHP",
+    "name": "oceanpayment/oceanpayment-sdk",
+    "description": "OceanPayment Payment SDK for PHP",
     "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OceanPayment",
+            "email": "techservice@oceanpayment.com.cn"
+        }
+    ],
     "require": {
         "php": ">=7.4",
         "guzzlehttp/guzzle": "^7.8"
     },
     "autoload": {
         "psr-4": {
-            "Oceanpayment\\": "src/"
+            "OceanPayment\\": "src/"
         }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "homepage": "https://github.com/Oceanpayment/Oceanpayment",
+    "support": {
+        "issues": "https://github.com/Oceanpayment/Oceanpayment/issues",
+        "source": "https://github.com/Oceanpayment/Oceanpayment"
     }
 }
