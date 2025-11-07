@@ -1,0 +1,14 @@
+{
+    "name": "oceanpayment",
+    "description": "Oceanpayment Payment SDK for PHP",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oceanpayment\\": "src/"
+        }
+    }
+}
